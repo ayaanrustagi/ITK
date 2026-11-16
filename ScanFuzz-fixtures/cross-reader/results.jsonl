@@ -1,0 +1,6 @@
+{"reader": "gdcm", "file": "synthetic-ct.dcm", "shape": [1, 16, 16], "values": [0], "foreground_positions_match": true, "values_match": true}
+{"reader": "gdcm-unit", "file": "synthetic-ct.dcm", "shape": [1, 16, 16], "values": [0], "foreground_positions_match": true, "values_match": true}
+{"reader": "dcmtk", "file": "synthetic-ct.dcm", "shape": [1, 16, 16], "values": [0], "foreground_positions_match": true, "values_match": true}
+{"reader": "gdcm", "file": "synthetic-binary-seg.dcm", "shape": [1, 16, 16], "values": [0, 255], "foreground_positions_match": true, "values_match": false}
+{"reader": "gdcm-unit", "file": "synthetic-binary-seg.dcm", "shape": [1, 16, 16], "values": [0, 1], "foreground_positions_match": true, "values_match": true}
+{"reader": "dcmtk", "file": "synthetic-binary-seg.dcm", "shape": [1, 16, 16], "values": [0, 1], "foreground_positions_match": true, "values_match": true}

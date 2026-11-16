@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.24)
+project(ScanFuzzDicomComparison LANGUAGES CXX)
+find_package(ITK REQUIRED COMPONENTS ITKIODCMTK ITKIOGDCM)
+add_executable(compare-reader compare-reader.cxx)
+target_link_libraries(compare-reader PRIVATE ${ITK_INTERFACE_LIBRARIES})
