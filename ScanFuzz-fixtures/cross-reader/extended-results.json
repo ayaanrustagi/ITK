@@ -1,0 +1,237 @@
+{
+  "byte-aligned-single-frame": [
+    {
+      "reader": "gdcm",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        255
+      ],
+      "foreground_positions_match": true,
+      "values_match": false
+    },
+    {
+      "reader": "gdcm-unit",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "dcmtk",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    }
+  ],
+  "fractional-control": [
+    {
+      "reader": "gdcm",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        128
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "gdcm-unit",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        128
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "dcmtk",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        16,
+        16
+      ],
+      "values": [
+        0,
+        128
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    }
+  ],
+  "odd-multi-frame": [
+    {
+      "reader": "gdcm",
+      "file": "seg.dcm",
+      "shape": [
+        3,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        255
+      ],
+      "foreground_positions_match": true,
+      "values_match": false
+    },
+    {
+      "reader": "gdcm-unit",
+      "file": "seg.dcm",
+      "shape": [
+        3,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "dcmtk",
+      "file": "seg.dcm",
+      "shape": [
+        3,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    }
+  ],
+  "odd-single-frame": [
+    {
+      "reader": "gdcm",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        255
+      ],
+      "foreground_positions_match": true,
+      "values_match": false
+    },
+    {
+      "reader": "gdcm-unit",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "dcmtk",
+      "file": "seg.dcm",
+      "shape": [
+        1,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    }
+  ],
+  "overlapping-segments": [
+    {
+      "reader": "gdcm",
+      "file": "seg.dcm",
+      "shape": [
+        4,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        255
+      ],
+      "foreground_positions_match": true,
+      "values_match": false
+    },
+    {
+      "reader": "gdcm-unit",
+      "file": "seg.dcm",
+      "shape": [
+        4,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    },
+    {
+      "reader": "dcmtk",
+      "file": "seg.dcm",
+      "shape": [
+        4,
+        7,
+        9
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "foreground_positions_match": true,
+      "values_match": true
+    }
+  ]
+}

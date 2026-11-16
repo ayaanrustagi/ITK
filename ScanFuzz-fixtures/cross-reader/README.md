@@ -16,3 +16,15 @@ python compare.py probe-build/compare-reader ..
 ```
 
 The probe reports every reader outcome, including errors. Compare its six JSON lines with `results.jsonl`. The CT control should agree in all modes. For the SEG, all reader modes should agree on the six foreground positions. Exact values should match pydicom through ITK's DCMTK reader and opt-in GDCM reader.
+
+## Generate and compare five additional cases
+
+Run the following from this directory with the same build and Python environment.
+
+```sh
+python -m pip install highdicom==0.28.1
+python generate_cases.py generated
+python compare_cases.py probe-build/compare-reader generated
+```
+
+Compare the report with `extended-results.json`. Each case has newly generated source CT identifiers, and each SEG references its own CT series. Cases cover a byte-aligned frame, odd dimensions, multiple frames, overlapping segments, and a fractional control. The overlap result measures frame pixels and does not establish segment label reconstruction.
