@@ -23,3 +23,10 @@ python -m pip install highdicom==0.28.1
 Then run python check_source_pair.py from the unpacked directory.
 The script looks up segment 1 by the source CT's instance UID and
 compares all 256 mask pixels against the expected array.
+
+Regenerating the pair
+
+With the same Python dependency, run python generate_source_pair.py generated.
+The output contains the same pixel pattern and newly generated instance
+identifiers. Copy check_source_pair.py into generated and run it there to
+check that the new source reference and all mask pixels match.
