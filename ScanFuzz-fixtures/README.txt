@@ -15,3 +15,11 @@ Coordinates are zero-based (row, column). The positions are (0, 0), (0, 7), (0, 
 Reference result
 
 pydicom 3.0.2 decoded all six foreground values as 1. ITK 5.4.7 returned 255 at the same six positions. The corresponding public report is ITK issue #6641 at https://github.com/InsightSoftwareConsortium/ITK/issues/6641.
+
+Optional automated source-pair check
+
+In a Python environment, install highdicom 0.28.1 with
+python -m pip install highdicom==0.28.1
+Then run python check_source_pair.py from the unpacked directory.
+The script looks up segment 1 by the source CT's instance UID and
+compares all 256 mask pixels against the expected array.
